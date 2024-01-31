@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "description": "A quick start plain HTML + Tailwind + Postcss project template.",
   "scripts": {
+    "inst":  "install",
     "dev": "concurrently \"postcss ./src/style.css -o ./src/output.css --watch --verbose\" \"browser-sync start --server 'src' --files 'src/**/*.*'\"",
     "build": "postcss ./src/style.css -o ./src/output.css --verbose",
     "format": "prettier src/**/*.{html,css,js} --write"
